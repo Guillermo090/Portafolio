@@ -13,10 +13,15 @@
     /* background: rgba(65,152,39,0.5); */
     background: #F8F8F8;
      display:grid;
-     grid-template: 100px    / minmax(150px, 150px)  minmax(401px, 1fr) 1.5fr;
+     grid-template: 100px    / minmax(100px, 100px)  minmax(350px, 350px) 550px;
      justify-items: center ;
      /* border: 1px solid green; */
-     box-shadow: 2px 2px 10px #666;   
+     box-shadow: 2px 2px 10px #666;  
+     justify-items: center;
+    justify-content: center;
+ 
+ 
+
  }
 
 header img{
@@ -30,7 +35,7 @@ header img{
 
 header figure{
  
-  margin:0;
+  margin:10px;
   padding: 0;
   align-self: center;
  
@@ -41,7 +46,7 @@ header h1{
     justify-self: start;
     align-self: center;
     /* border:1px solid red; */
-    font-size: 40px;
+    font-size: 35px;
     margin: 0;
     padding: 0;
     /* color:white; */
@@ -66,10 +71,10 @@ header h1{
 }
 
 .nav ul a{
-    border-radius: 10px;
-    padding: 10px 25px;
+    border-radius: 30px;
+    padding: 0 10px;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
     color:#499C27;
     text-decoration: none;
     border: 1px solid #499C27;
@@ -84,7 +89,9 @@ header h1{
  /* Hero */
 
  .hero{
-     background: rgba(117, 119, 118,0.3);
+     /* background: rgba(117, 119, 118,0.3); */
+     margin-top: 60px;
+     background: rgba(73, 156, 39,1);
      display: grid;
      grid-template: 450px / 1fr minmax(100px,1fr);
      justify-items: center;
@@ -93,7 +100,7 @@ header h1{
  }
 
 .hero span{
-    color: #499C27;
+    /* color: #499C27; */
 }
 
 .hero .hero-title{
