@@ -442,7 +442,7 @@ header img{
 
 .container-footer{
     /* border:1px solid red; */
-    width: 40%;
+    width: 60%;
     display: flex;
     align-self: center;
     align-items: stretch;
@@ -452,26 +452,26 @@ header img{
 }
 
 .personales{
-
-    padding: 35px 0;
-     
-    /* border:1px solid red; */
+    /* border: 1px solid red; */
+    padding: 45px 5px;  
     border-right:1px solid rgb(63, 148, 29);
-    width: 40%;
     color:white;
-    width: 320px;
+    width: 330px;
 }
 
 .personales p{
-    /* border:1px solid red; */
+     
     display: flex;
     align-items: center;
+    font-weight: 700;
+    font-size: 1em;
 }
 
  
 
 
 .datos-per{
+    
     
     display: inline-block;
     width: 25px;
@@ -481,52 +481,35 @@ header img{
 }
 
 .urls-pag {
-    
+    /* border: 1px solid red; */
     padding: 35px 0;
- 
     justify-content: center;    
- 
     display: flex;
- 
     flex-direction: column;
- 
+    width:136px ;
 }
 
 .urls-pag a{
-    /* border:1px solid red; */
+    
     color: white;
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 700;
     padding: 10px;
-
+    font-size: 1em;
 }
-
-.container-promo{
-    /* border:1px solid red; */
-    width: 1000px;
  
-    display: flex;
-    justify-content: center;
-     
-     
-    
-}
 
 .footer .dev{
     font-family: sans-serif;
     color: white;
-    /* font-size: 14px; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: stretch; */
-    /* padding-right: 25px; */
     border-top: 10px solid rgb(61, 133, 32);
-    /* border:1px solid red; */
     background: rgb(37, 90, 16);
-    border:1px solid red;
+     
+    text-align: center;     
      
 }
 
+ 
 
 
 /* Fin Desktop First */
@@ -674,7 +657,41 @@ header img{
     }
 
 
+    .container-footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .personales{
+        border:initial;
+        display: inherit;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;;
+        
+    }
+
+ 
+    .personales p{
+
+        width: 100%;
+        justify-content: center;
+         
+    }
+
+    .urls-pag{
+        display: none;
+    }
+
+    .urls-pag a{    
+        text-align: center;
+    }
+
+
  }
+
+
+  
 
 
 
@@ -730,9 +747,14 @@ header img{
         margin: 0 20px;
     }
 
-
- }
-    
+    .personales{
+        width: initial;
+    }
+    .urls-pag{
+        width: initial;
+       
+    }
+}
 
  @media screen and (max-width: 320px){
 
