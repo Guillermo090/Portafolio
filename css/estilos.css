@@ -230,7 +230,7 @@ header img{
 
 .project img{
     max-width: 100%;
-    border:5px solid #e6e6e6;
+    border:5px solid #A0CB93;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -270,7 +270,7 @@ header img{
     overflow: hidden;
     /* flex-shrink: 0; */
     background:rgb(248, 248, 248);
-    margin: inherit;
+    margin: 10px;
     
 }
 
@@ -388,6 +388,7 @@ header img{
 
 
 .social{
+    
     /* border: 1px solid red;  */
     max-width: 480px;
     display: inherit;
@@ -431,30 +432,64 @@ header img{
     border-top:1px solid rgb(63, 148, 29);
     /* border-top:1px solid black; */
     background: #499C27;
-    /* height: 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
     
 
 }
 
 .container-footer{
     /* border:1px solid red; */
-    width: 1000px;
-    display: inherit;
-    flex-direction: column;
-    align-items: center;
-     
+    width: 40%;
+    display: flex;
+    align-self: center;
+    align-items: stretch;
+    justify-content: space-around;
     
+     
 }
 
+.personales{
 
-.urls-pag {
+    padding: 35px 0;
+     
     /* border:1px solid red; */
-    margin: 35px 0;
-    height: 150px;
+    border-right:1px solid rgb(63, 148, 29);
+    width: 40%;
+    color:white;
+    width: 320px;
+}
+
+.personales p{
+    /* border:1px solid red; */
     display: flex;
     align-items: center;
+}
+
+ 
+
+
+.datos-per{
+    
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 2%;
+    /* border: 1px solid green; */
+}
+
+.urls-pag {
+    
+    padding: 35px 0;
+ 
+    justify-content: center;    
+ 
+    display: flex;
+ 
     flex-direction: column;
-    justify-content: space-evenly;
+ 
 }
 
 .urls-pag a{
@@ -462,7 +497,7 @@ header img{
     color: white;
     text-decoration: none;
     font-weight: 800;
-    padding: 5px;
+    padding: 10px;
 
 }
 
@@ -477,20 +512,25 @@ header img{
     
 }
 
-.footer .promo{
-    /* border:1px solid red; */
+.footer .dev{
     font-family: sans-serif;
     color: white;
     /* font-size: 14px; */
-    display: flex;
+    /* display: flex; */
     /* align-items: center; */
-    justify-content: center;
+    /* justify-content: stretch; */
     /* padding-right: 25px; */
     border-top: 10px solid rgb(61, 133, 32);
     /* border:1px solid red; */
     background: rgb(37, 90, 16);
-    height: 50px;
+    border:1px solid red;
+     
 }
+
+
+
+/* Fin Desktop First */
+
 
 @media screen and (max-width: 1439px){
    
