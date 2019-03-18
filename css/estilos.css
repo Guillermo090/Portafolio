@@ -150,7 +150,7 @@ header img{
 }
 
 .projects-container-title{
-    font-size: 2em;
+    font-size: 2.5em;
     color:#499C27;
     /* border:1px solid red; */
     text-align: center;
@@ -237,7 +237,6 @@ header img{
 
 .event-list{
     display: flex;
-    /* border: 1px solid red; */
     flex-wrap: wrap;
     justify-content: center;
       
@@ -249,8 +248,9 @@ header img{
     /* border:1px solid red; */
     display: inherit;
     flex-wrap: wrap;
-    width: 1000px;
+    max-width: 1000px;
     margin-bottom: 50px;
+    justify-content: center;
     
 }
 
@@ -259,17 +259,18 @@ header img{
     color:#499C27;
     text-align: center;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 2.5em;
 }
 
 .event{
     /* border: 1px solid red;  */
     margin: 10px; 
-    width: 480px;
+    max-width: 480px;
     border-radius: 10px;
     overflow: hidden;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
     background:rgb(248, 248, 248);
+    margin: inherit;
     
 }
 
@@ -279,9 +280,9 @@ header img{
 .event-img{
      
     /* border: 1px solid green; */
-    /* width: 100%; */
-    width: 480px;
-    height: 200px;
+    width: 100%;
+    max-width: 100%;
+    max-height: 200px;
     object-fit: cover;
 }
 
@@ -601,6 +602,15 @@ header img{
     .project img{
         max-width: 100%;
         border:initial;
+    }
+
+    .event-detail{
+        height: initial;
+        max-height: initial;
+    }
+
+    .container-events{
+        padding: 1%;   
     }
 
  }
