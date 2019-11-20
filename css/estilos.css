@@ -116,7 +116,7 @@ header img{
     /* border:1px solid purple; */
     font-size: 1.5em;
     font-weight: bold;
-    text-align: end;
+    text-align: center;
 }
 
  .hero figure {
@@ -490,7 +490,7 @@ header img{
 }
 
 .urls-pag a{
-    
+    text-align: center;
     color: white;
     text-decoration: none;
     font-weight: 700;
