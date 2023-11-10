@@ -390,7 +390,7 @@ header img{
 .social{
     
     /* border: 1px solid red;  */
-    max-width: 480px;
+    max-width: 680px;
     display: inherit;
     justify-content: space-evenly;
  
@@ -426,6 +426,10 @@ header img{
     background-image: url(../img/instagram.svg);
 }
 
+.social-link.linkedin{
+    
+    background-image: url(../img/linkedin.svg);
+}
 
 /* footer */
 .footer {
