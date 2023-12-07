@@ -160,15 +160,23 @@ header img{
 
 .project{
     display: flex;
-    justify-content: center; 
     border-top:10px solid transparent;
     border-bottom:10px solid transparent;
-    border-left: 20px solid rgba(65,152,39,0.5);
-    border-right: 20px solid rgba(65,152,39,0.5);
-    padding: 75px 0 ;
+    padding: 0 150px 0 ;
     margin: 75px 0; 
-    
-    
+}
+
+.project-left{
+    justify-content: left; 
+    /* border:1px solid green; */
+    border-left: 20px solid rgba(65,152,39,0.5);
+
+}
+
+.project-right{
+    justify-content: right; 
+    /* border:1px solid red; */
+    border-right: 20px solid rgba(65,152,39,0.5);
 }
 
 .project-detail{
